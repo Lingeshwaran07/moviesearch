@@ -2,7 +2,7 @@ import "./App.css";
 import Card from "./Card";
 import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
-import { useState, useEffect, } from "react";
+import { useState, useEffect } from "react";
 
 const api = "http://www.omdbapi.com/?i=tt3896198&apikey=435dc4";
 
