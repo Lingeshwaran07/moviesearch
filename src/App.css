@@ -1,0 +1,123 @@
+.title{
+  color:rgb(255, 0, 0);
+}
+.app{
+  
+  width:80%;
+  margin: auto;
+  text-align: center;
+}
+.input{
+  background-color: #3d3939;
+ /* border-radius: 30px;  */
+  border:0px;
+  width:90%;
+  height: 50px;
+  color: white;
+  font-size: large;
+  
+ /* padding: 15px; */
+
+}
+.input-search{
+  background-color: #3d3939;
+  border-radius: 30px;
+  text-align: center;
+  
+  width:80%;
+
+}
+.icon{
+  
+  
+  color: white;
+  cursor: pointer;
+}
+.button{
+  background-color: transparent;
+  outline: none;
+  border:0;
+}
+
+.inp-src{
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+input:focus{
+  outline: none;
+}
+
+.movie-card{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+  
+}
+@media screen and (max-width:963px){
+
+  ::placeholder{
+    color:white;
+  }
+  .input-search{
+    background-color: red;
+    border-radius: 0px;
+    text-align: center;
+    
+    width:80%
+  
+  }
+  .input{
+    background-color:red;
+   /* border-radius: 30px;  */
+    border:0px;
+    width:50%;
+    height: 50px;
+    color: white;
+    font-size: large;
+    
+   /* padding: 15px; */
+  
+  }
+  .title{
+    color: white;
+  }
+  
+}
+@media screen and (max-width:430px){
+  .input-search{
+    background-color: red;
+    border-radius: 0px;
+    text-align: center;
+    
+    width:80%
+  
+  }
+  .input{
+    background-color:red;
+   /* border-radius: 30px;  */
+    border:0px;
+    width:60%;
+    height: 50px;
+    color: white;
+    font-size: large;
+    
+   /* padding: 15px; */
+  
+  }
+  ::placeholder{
+    color:white;
+  }
+
+
+
+  .title{
+    color: white;
+  }
+  
+}
